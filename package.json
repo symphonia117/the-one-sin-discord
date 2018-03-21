@@ -1,0 +1,44 @@
+{
+  "name": "the-one-sin-discord",
+  "version": "1.0.0",
+  "description": "The_One_Sin Discord bot",
+  "main": "index.js",
+  "engines": {
+    "node": "9.9.0",
+    "npm": "*"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/symphonia117/the-one-sin-discord.git"
+  },
+  "keywords": [
+    "discord",
+    "the_one_sin",
+    "the",
+    "one",
+    "sin",
+    "sin",
+    "dot",
+    "hack",
+    "world",
+    "boss",
+    "mirc",
+    "swiftirc",
+    "gaming",
+    "syndicate",
+    "bot"
+  ],
+  "author": "symphonia117",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/symphonia117/the-one-sin-discord/issues"
+  },
+  "homepage": "https://github.com/symphonia117/the-one-sin-discord#readme",
+  "dependencies": {
+    "discord.js": "^11.3.2"
+  }
+}
