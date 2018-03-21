@@ -11,4 +11,4 @@ client.on("message", (message) => {
   }
 });
 
-client.login("ACCESS_KEY");
+client.login(process.env.ACCESS_KEY);
