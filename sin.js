@@ -1,21 +1,24 @@
+//declare const
 const Discord = require("discord.js");
 const client = new Discord.Client();
 const config = require("./config.json");
 
+//declare global variable
+var p = config.prefix;
+
+//spin up message
 client.on("ready", () => {
-  console.log("I am ready!");
+  console.log("I'm ready!");
 });
 
 client.on("message", (message) => {
-  if (message.content.startsWith("ping")) {
+  if (message.content === p + "ping") {
     message.channel.send("pong!");
   }
 
   else{
 
 	  	if(message.author.bot) return;
-
-	  	let prefix = config.prefix;
 	  	let messageArray = message.content.split(" ");
 	  	let command = messageArray.shift().toLowerCase();
 
