@@ -6,7 +6,7 @@ The_One_Sin was originally a bot made to run on mIRC for use on the SwiftIRC Run
 
 ## Features
 
-features.
+features go here
 
 ## Getting Started
 
